@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows:  1fr;
+  grid-template-columns: 244px 1fr;
+  grid-template-areas: 
+    "sidebar home";
+}
+
+.sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid rgb(38, 38, 38);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 8px 12px 20px;
+}
+
+.mainContent {
+  grid-area: home;
+}
+
+@media only screen and (max-width: 1264px) {
+  .container {
+    grid-template-columns: 72px 1fr;
+  }
+}

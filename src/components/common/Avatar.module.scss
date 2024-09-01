@@ -1,0 +1,49 @@
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+
+  &.tiny {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.small {
+    width: 32px;
+    height: 32px;
+  }
+
+  &.medium {
+    width: 48px;
+    height: 48px;
+  }
+
+  &.large {
+    width: 64px;
+    height: 64px;
+  }
+
+  &.xl {
+    width: 80px;
+    height: 80px;
+  }
+
+  &.xxl {
+    width: 96px;
+    height: 96px;
+  }
+
+  &.huge {
+    width: 128px;
+    height: 128px;
+  }
+
+  &.gigantic {
+    width: 160px;
+    height: 160px;
+  }
+
+  &.colossal {
+    width: 192px;
+    height: 192px;
+  }
+}

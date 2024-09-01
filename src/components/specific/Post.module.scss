@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.profile {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.profileAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+.actionButtons {
+  display: flex;
+  margin: 4px 0;
+}
+
+.image {
+  width: 100%;
+  min-height: 400px;
+}
+
+.caption {
+  margin-top: 8px;
+}
+
+.viewAllComments {
+  margin-top: 8px;
+}
+
+.inputComment {
+  width: 100%;
+  border: none;
+  outline: none;
+}

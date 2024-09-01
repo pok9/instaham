@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerProfile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 16px;
+}
+
+.image {
+  width: 44px;
+  height: 44px;
+}

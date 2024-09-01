@@ -1,0 +1,26 @@
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.navLinkActive {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin: 4px 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.container:hover {
+  background: rgba(0, 0, 0, 0.1);
+  // background: red;
+}
+
+.name {
+  padding: 0 0 0 16px;
+}
